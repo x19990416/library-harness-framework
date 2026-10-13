@@ -1,0 +1,6 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 安全问题
+    url: https://github.com/x19990416/library-harness-framework/security/advisories/new
+    about: 请通过私密安全报告渠道提交漏洞。
+

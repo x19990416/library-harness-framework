@@ -1,0 +1,32 @@
+name: 缺陷报告
+description: 报告可复现的问题
+title: "[Bug]: "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: 请勿提交密钥、真实读者信息或其他敏感数据。
+  - type: textarea
+    id: description
+    attributes:
+      label: 问题描述
+      description: 清楚说明实际行为与期望行为。
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: 复现步骤
+      description: 提供不含敏感数据的最小复现步骤。
+    validations:
+      required: true
+  - type: textarea
+    id: environment
+    attributes:
+      label: 环境信息
+      description: 包含提交版本、运行环境与相关配置（请脱敏）。
+  - type: textarea
+    id: context
+    attributes:
+      label: 补充信息
+
